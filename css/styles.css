@@ -1,11 +1,20 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --main-background-color: #ffffff;
+}
+
 /*Студия*/
+
 .hero {
-  background: #2f303a;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   letter-spacing: 0.06em;
 
   text-align: center;
   color: var(--primary-white-color);
+  background: #2f303a;
 }
 
 .hero-title {
@@ -26,10 +35,15 @@
   color: var(--primary-white-color);
 }
 
+.section {
+  font-family: Roboto, sans-serif;
+}
+
 .work {
-  list-style: none;
   font-size: 14px;
   letter-spacing: 0.03em;
+
+  list-style: none;
 }
 
 .work-title {
@@ -57,43 +71,30 @@
   color: var(--primary-text-color);
 }
 
-.section-photo {
+.section-photo .name,
+.section-photo .job {
   list-style: none;
-}
-.name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
 
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--primary-text-color);
-}
-.job {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 
   text-align: center;
   letter-spacing: 0.03em;
+}
+.name {
+  font-weight: 500;
+
+  color: var(--primary-text-color);
+}
+.job {
+  font-weight: 400;
 
   color: var(--secondary-text-color);
 }
 /* Страничка Портфолио */
 
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
-  --main-background-color: #ffffff;
-}
-
 body {
   background: var(--main-background-color);
-
-  font-family: Roboto, sans-serif;
 }
 
 .logo-primary {
@@ -133,10 +134,7 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
+.site-nav .link:focus,
 .site-nav .link.current {
   color: var(--accent-color);
 }
