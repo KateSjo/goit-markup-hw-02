@@ -137,7 +137,9 @@ body {
 .site-nav .link:focus,
 .site-auth .link:hover,
 .site-auth .link:focus,
-.site-nav .link.current {
+.site-nav .link.current,
+.footer-address .address-footer:hover,
+.footer-address .address-footer:focus {
   color: var(--accent-color);
 }
 
