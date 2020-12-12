@@ -34,11 +34,15 @@ body {
   text-transform: uppercase;
 }
 
+.hero .primary {
+  background: var(--accent-color);
+}
+
 .primary {
   font-style: 400;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87x;
+  line-height: 1.87;
 }
 /*Раздел - Виимание к деталям*/
 
