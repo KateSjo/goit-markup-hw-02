@@ -35,6 +35,7 @@ body {
 }
 
 .hero .primary {
+  color: var(--primary-white-color);
   background: var(--accent-color);
 }
 
